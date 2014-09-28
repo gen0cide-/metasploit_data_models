@@ -37,11 +37,11 @@ Gem::Specification.new do |s|
 
   # restrict from rails 4.0 as it requires protected_attributes gem and other changes for compatibility
   # @see MSP-2971
-  s.add_runtime_dependency 'activerecord', '>= 3.2.13', '< 4.0.0'
+  s.add_runtime_dependency 'activerecord', '~> 4.0.0'
   s.add_runtime_dependency 'activesupport'
   s.add_runtime_dependency 'metasploit-concern', '~> 0.2.1'
   s.add_runtime_dependency 'metasploit-model', '~> 0.27.0'
-  s.add_runtime_dependency 'railties', '< 4.0.0'
+  s.add_runtime_dependency 'railties', '~> 4.0.0'
 
   # arel-helpers: Useful tools to help construct database queries with ActiveRecord and Arel.
   s.add_runtime_dependency 'arel-helpers'
